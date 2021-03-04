@@ -18,11 +18,12 @@ export default class SearchBar extends React.Component {
       <div className="ui segment">
         <form className="ui form" onSubmit={this.handleFormSubmit}>
           <div className="field">
-            <label htmlFor="searchBar">Image Search</label>
+            <label htmlFor="searchBar">Images Search</label>
             <input
               type="text"
               name="first-name"
               id="searchBar"
+              placeholder="Some images to display"
               value={this.state.term}
               onChange={this.handleInputChange}
             />

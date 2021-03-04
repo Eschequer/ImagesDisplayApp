@@ -21,7 +21,7 @@ export default class ImageCard extends Component {
 
     return (
       <img
-        src={size.regular}
+        src={size["regular"]}
         alt={description ? description : alt}
         ref={this.imageRef}
         style={{
