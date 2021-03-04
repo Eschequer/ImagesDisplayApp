@@ -1,9 +1,9 @@
 import React from "react";
-import unsplash from "../../api/unsplash";
-import SearchBar from "./SearchBar";
-import ImageList from "./ImageList";
+import unsplash from "./api/unsplash";
+import SearchBar from "./Components/ImagesDisplay/SearchBar";
+import ImageList from "./Components/ImagesDisplay/ImageList";
 
-export default class ImagesDisplayApp extends React.Component {
+export default class App extends React.Component {
   constructor(props) {
     super(props);
 
